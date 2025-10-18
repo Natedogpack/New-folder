@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Shearer Piano Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    
+      <div class="content">
+        <div class="book-now-container">
+            <a href="https://gazelleapp.io//scheduling/1RgpsktxmFCsjF3vPtLj35Sx" class="book-now-btn">Book Now</a>
+          </div>
+          
+        <div class="title">Shearer Piano Service</div>
+    
+        <div class="contact">
+          <ul>
+            David Shearer <u>717 - 352 - 9614</u>
+          </ul>
+        </div>
+    
+        <div class="image-row">
+          <div class="image-box"></div>
+          <div class="image-box"></div>
+        </div>
+
+  <!-- Main Content -->
+  <div class="content">
+
+    <div class="title">Contact</div>
+
+    <div class="contact-container">
+
+      <!-- Left Column: Contact Form -->
+      <div class="contact-form">
+        <form id="contactForm" action="#" method="post">
+
+          <label for="name">Name<span style="color:red">*</span>:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company">
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+
+          <label for="email">Email<span style="color:red">*</span>:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="confirmEmail">Confirm your Email<span style="color:red">*</span>:</label>
+          <input
+            type="email"
+            id="confirmEmail"
+            name="confirmEmail"
+            required
+            oninput="check(this)"
+          >
+
+          <label for="comments">Comments/Questions:</label>
+          <textarea id="comments" name="comments"></textarea>
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+
+      <!-- Right Column: Contact Info -->
+      <div class="contact-info">
+        <p class="section"><strong>Shearer Piano Service</strong></p>
+
+        <p class="section">
+          David Shearer<br>
+          145 McDermott Street<br>
+          Chambersburg, PA 17202
+        </p>
+
+        <p class="section">
+          Email Us:<br>
+          info@davidshearerpiano.com
+        </p>
+      </div>
+
+    </div> <!-- /.contact-container -->
+
+  </div> <!-- /.content -->
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>David Shearer Piano Service</strong> 145 McDermott St, Chambersburg, PA 17202</p>
+    <p>Mobile +1(717)860-5238 | Veteran Owned and Operated Business</p>
+  </footer>
+
+  <!-- Email-Matching Validation Script -->
+  <script>
+    function check(input) {
+      if (input.value !== document.getElementById('email').value) {
+        input.setCustomValidity('Email addresses must match');
+      } else {
+        input.setCustomValidity('');
+      }
+    }
+  </script>
+
+</body>
+</html>
