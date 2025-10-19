@@ -63,8 +63,8 @@ body {
   .book-now-container {
     text-align: right;
     margin-bottom: 10px;
-    width: 200px;
-  height: 66px;
+    width: 500px;
+  height: 166px;
   }
   
   .book-now-btn {
@@ -167,4 +167,5 @@ body {
   }
 
   
+
 
