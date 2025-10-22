@@ -72,8 +72,8 @@ body {
 
 /* Button modifications */
 .book-now-btn {
-    width: 200px;               /* set a larger width */
-    height: 150px;              /* height is 3/4 of width */
+    width: 100px;               /* set a larger width */
+    height: 75px;              /* height is 3/4 of width */
     padding: 0;                 /* remove default padding to match dimensions */
     font-size: 1.5rem;          /* increase text size proportionally */
     border-radius: 8px;         /* optional rounded corners */
@@ -178,4 +178,5 @@ body {
 
 img {
     text-align: center}
+
 
