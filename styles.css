@@ -62,29 +62,36 @@ body {
     font-size: 16px;
   }
   
-  .book-now-container {
-    text-align: right;
-    margin-bottom: 10px;
-      
-  }
-  
-  .book-now-btn {
-    background-color: rgb(21, 71, 52);
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-      width: 15%
-      height: 10%
-  }
-  
-  .book-now-btn:hover {
-    background-color: #3885d8;
-  }
-  
+ /* Container adjustments (optional, for positioning) */
+.book-now-container {
+    display: flex;
+    justify-content: center; /* centers the button horizontally */
+    align-items: center;     /* optional, centers vertically if container height allows */
+    margin: 20px 0;          /* adds spacing around the container */
+}
+
+/* Button modifications */
+.book-now-btn {
+    width: 200px;               /* set a larger width */
+    height: 150px;              /* height is 3/4 of width */
+    padding: 0;                 /* remove default padding to match dimensions */
+    font-size: 1.5rem;          /* increase text size proportionally */
+    border-radius: 8px;         /* optional rounded corners */
+    background-color: #007bff;  /* button color */
+    color: white;               /* text color */
+    border: none;               /* remove default border */
+    cursor: pointer;            /* show pointer on hover */
+    display: flex;              /* centers text vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* smooth hover effects */
+}
+
+/* Optional hover effect */
+.book-now-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* slightly enlarges button on hover */
+}
   footer {
     background-color: #eaeaea;
     padding: 20px 0;
@@ -168,3 +175,4 @@ body {
     margin-bottom: 20px;
     font-size: 16px;
   }
+
