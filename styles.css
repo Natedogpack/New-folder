@@ -80,7 +80,7 @@ body {
     padding: 0;                 /* remove default padding to match dimensions */
     font-size: 1.5rem;          /* increase text size proportionally */
     border-radius: 8px;         /* optional rounded corners */
-    background-color: #023020;  /* button color */
+    background-color: #33B864;  /* button color */
     color: white;               /* text color */
     border: none;               /* remove default border */
     cursor: pointer;            /* show pointer on hover */
@@ -181,6 +181,7 @@ body {
 
 img {
     text-align: center}
+
 
 
 
