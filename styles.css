@@ -72,8 +72,8 @@ body {
 
 /* Button modifications */
 .book-now-btn {
-    width: 140px;               /* set a larger width */
-    height: 80px;              /* height is 3/4 of width */
+    width: 9%;               /* set a larger width */
+    height: 6%;              /* height is 3/4 of width */
     padding: 0;                 /* remove default padding to match dimensions */
     font-size: 1.5rem;          /* increase text size proportionally */
     border-radius: 8px;         /* optional rounded corners */
@@ -90,11 +90,11 @@ body {
 /* Optional hover effect */
 .book-now-btn:hover {
     background-color: #0056b3;
-    transform: scale(1.05); /* slightly enlarges button on hover */
+    transform: scale(1.10); /* slightly enlarges button on hover */
 }
   footer {
     background-color: #eaeaea;
-    padding: 20px 0;
+    padding: 20px;
     margin-top: 30px;
     font-size: 14px;
   }
@@ -178,6 +178,7 @@ body {
 
 img {
     text-align: center}
+
 
 
 
