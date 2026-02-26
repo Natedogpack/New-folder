@@ -65,15 +65,15 @@ body {
  /* Container adjustments (optional, for positioning) */
 .book-now-container {
     display: flex;
-    justify-content: right; /* centers the button horizontally */
-    align-items: right;     /* optional, centers vertically if container height allows */
+    justify-content: center; /* centers the button horizontally */
+    align-items: center;     /* optional, centers vertically if container height allows */
     margin: 20px 0;          /* adds spacing around the container */
 }
 
 /* Button modifications */
 .book-now-btn {
-    width: 80px;               /* set a larger width */
-    height: 60px;              /* height is 3/4 of width */
+    width: 140px;               /* set a larger width */
+    height: 80px;              /* height is 3/4 of width */
     padding: 0;                 /* remove default padding to match dimensions */
     font-size: 1.5rem;          /* increase text size proportionally */
     border-radius: 8px;         /* optional rounded corners */
@@ -178,6 +178,7 @@ body {
 
 img {
     text-align: center}
+
 
 
 
