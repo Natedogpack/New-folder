@@ -5,7 +5,10 @@ body {
     padding: 0;
     text-align: center;
   }
-  
+
+  .message {
+  Height: 15%;
+  }
   .menu-bar {
     background-color: #084a91;
     padding: 10px 0;
@@ -178,6 +181,7 @@ body {
 
 img {
     text-align: center}
+
 
 
 
