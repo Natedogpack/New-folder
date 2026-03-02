@@ -184,13 +184,14 @@ img {
 
 .about p {
     width: 70%;
-    text-align: left;
+    text-align: center;
 }
 
 .about {
-    width:70
+    width:70%;
     text-align: center;
 }
+
 
 
 
