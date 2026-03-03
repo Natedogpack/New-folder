@@ -85,7 +85,7 @@ body {
     border: none;               /* remove default border */
     cursor: pointer;            /* show pointer on hover */
     display: flex;              /* centers text vertically and horizontally */
-    justify-content: center;
+    justify-content: right;
     align-items: right;
     transition: background-color 0.3s ease, transform 0.2s ease; /* smooth hover effects */
 }
@@ -187,6 +187,7 @@ img {
     text-align: center;
     justify: center;
 }
+
 
 
 
