@@ -68,7 +68,7 @@ body {
  /* Container adjustments (optional, for positioning) */
 .book-now-container {
     display: flex;
-    justify-content: center; /* centers the button horizontally */
+    justify-content: right; /* centers the button horizontally */
     align-items: center;     /* optional, centers vertically if container height allows */
     margin: 20px 0;          /* adds spacing around the container */
 }
@@ -187,6 +187,7 @@ img {
     text-align: center;
     justify: center;
 }
+
 
 
 
